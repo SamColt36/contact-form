@@ -1,7 +1,7 @@
 
 # Contact Form 
 
-Bem-vindo ao meu repositório do GitHub! Aqui você encontrará um repositório dedicado a criar a validação *hard code* de um formulário simples. Originalmente esse projeto tem como base no projeto do [Figma](https://www.figma.com/file/tazDAp7VytHVELppKuHlO3/Contact-us-Forms-UI-Design-(Community)?type=design&node-id=0-1&mode=design&t=qU4hwAFqXfiMoope-0)p
+Bem-vindo ao meu repositório do GitHub! Aqui você encontrará um repositório dedicado a criar a validação *hard code* de um formulário simples. Originalmente esse projeto tem como base no projeto do [Figma](https://www.figma.com/file/tazDAp7VytHVELppKuHlO3/Contact-us-Forms-UI-Design-(Community)?type=design&node-id=0-1&mode=design&t=qU4hwAFqXfiMoope-0).
 
 
 ## Contexto 👨‍💻
