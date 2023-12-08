@@ -285,9 +285,9 @@ FakesAssemblies/
 
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-node_modules/
-package.json
-package-lock.json
+# node_modules/
+# package.json
+# package-lock.json
 
 
 # Visual Studio 6 build log
