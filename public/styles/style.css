@@ -1,0 +1,24 @@
+body {
+	/* background-image: url(../svg/background.svg); */
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../svg/background.svg') center/cover no-repeat fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+.bg-image {
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}

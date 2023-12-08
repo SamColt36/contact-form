@@ -1,0 +1,15 @@
+{
+  "name": "contact-form",
+  "version": "1.0.0",
+  "description": "O arquivo `script.sh` cria a árvore de diretórios e arquivos utilidados em projetos tailwindcss cujo auto utiliza. \r Para compilá-lo use: ./script.sh\r Caso queira redirecionar eventuais erros, use: ./script.sh 2> /dev/null",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
