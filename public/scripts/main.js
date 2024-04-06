@@ -3,10 +3,10 @@ import {
   alertCuston,
   blockSubmit,
   resetForm,
-  empty,
+  empty
 } from "./auxiliary-functions.js";
 
-$('input:not([type="submit"]):not([type="reset"])').on("blur", function (e) {
+$('input:not([type="submit"]):not([type="reset"])').on("blur", function(e) {
   nome.val() !== empty && email.val() !== empty && phone.val() !== empty
     ? submit
         .removeAttr("disabled")
@@ -17,18 +17,18 @@ $('input:not([type="submit"]):not([type="reset"])').on("blur", function (e) {
   e.preventDefault();
 });
 
-reset.click(function (e) {
+reset.click(function(e) {
   setTimeout(resetForm, 350);
   console.clear();
   e.preventDefault();
 });
 
-submit.click(function (e) {
+submit.click(function(e) {
   setTimeout(() => {
     resetForm();
     main.fadeOut();
     button.fadeIn();
-    window.open("https://github.com/SamColt36", "_blank");
+    window.open("https://github.com/SamColt36/contact-form", "_blank");
   }, 500);
   e.preventDefault();
 });
