@@ -1,6 +1,6 @@
 import $ from "jquery";
 import { nome } from "./dom.js";
-import { empty, alertCuston } from "./auxiliary-functions.js";
+import { empty } from "./auxiliary-functions.js";
 export { validateInputTypeName };
 
 const checkWordsInputTypeName = (array, obj) => {

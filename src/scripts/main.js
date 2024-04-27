@@ -10,7 +10,6 @@ import "./validate-input-tel.js";
 import $ from "jquery";
 import { phone, nome, email, submit, reset, main, button } from "./dom.js";
 import {
-  alertCuston,
   blockSubmit,
   resetForm,
   empty,
@@ -43,4 +42,4 @@ submit.click(function (e) {
   e.preventDefault();
 });
 
-export { resetForm, empty, alertCuston };
+export { resetForm, empty };
