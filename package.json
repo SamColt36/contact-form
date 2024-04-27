@@ -1,15 +1,26 @@
 {
   "name": "contact-form",
-  "version": "1.0.0",
-  "description": "O arquivo `script.sh` cria a árvore de diretórios e arquivos utilidados em projetos tailwindcss cujo auto utiliza. \r Para compilá-lo use: ./script.sh\r Caso queira redirecionar eventuais erros, use: ./script.sh 2> /dev/null",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./scripts/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Samuel",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^7.1.1",
+    "jquery": "^3.7.1",
+    "postcss": "^8.4.38",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "^3.4.3",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
   "devDependencies": {
-    "tailwindcss": "^3.3.6"
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.9.0"
   }
 }
